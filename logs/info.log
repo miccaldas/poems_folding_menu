@@ -1,0 +1,442 @@
+2021-12-22T10:39:32.079104+0000 - __main__ - INFO - midday.html
+2021-12-22T10:39:32.079636+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T10:39:32.125121+0000 - __main__ - INFO - lazy.html
+2021-12-22T10:39:32.125639+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T10:39:32.140572+0000 - __main__ - INFO - salt.html
+2021-12-22T10:39:32.140996+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T10:39:32.159797+0000 - __main__ - INFO - freedom.html
+2021-12-22T10:39:32.162392+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T10:39:32.218172+0000 - __main__ - INFO - ice.html
+2021-12-22T10:39:32.218661+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T10:39:32.233011+0000 - __main__ - INFO - sense.html
+2021-12-22T10:39:32.233500+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T10:39:32.248398+0000 - __main__ - INFO - travelling.html
+2021-12-22T10:39:32.249296+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T10:39:32.285118+0000 - __main__ - INFO - ignorance.html
+2021-12-22T10:39:32.285596+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T10:39:32.301237+0000 - __main__ - INFO - inward.html
+2021-12-22T10:39:32.301678+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T10:39:32.326019+0000 - __main__ - INFO - babes.html
+2021-12-22T10:39:32.326513+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T10:39:32.341988+0000 - __main__ - INFO - playground.html
+2021-12-22T10:39:32.342482+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T10:39:32.382485+0000 - __main__ - INFO - maria.html
+2021-12-22T10:39:32.383967+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T10:39:32.404539+0000 - __main__ - INFO - would.html
+2021-12-22T10:39:32.405437+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T10:39:32.432447+0000 - __main__ - INFO - friends.html
+2021-12-22T10:39:32.432943+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T10:39:32.448119+0000 - __main__ - INFO - arrow.html
+2021-12-22T10:39:32.449087+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T10:39:32.464184+0000 - __main__ - INFO - love.html
+2021-12-22T10:39:32.464666+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T10:39:32.480192+0000 - __main__ - INFO - glass.html
+2021-12-22T10:39:32.480688+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T10:39:32.499315+0000 - __main__ - INFO - mario.html
+2021-12-22T10:39:32.501291+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T10:39:32.539050+0000 - __main__ - INFO - cat.html
+2021-12-22T10:39:32.541051+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T10:39:32.586122+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T10:39:32.587018+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T10:39:32.635493+0000 - __main__ - INFO - cassandra.html
+2021-12-22T10:39:32.635935+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T10:39:32.650656+0000 - __main__ - INFO - benzos.html
+2021-12-22T10:39:32.651112+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T10:39:32.665083+0000 - __main__ - INFO - mourners.html
+2021-12-22T10:39:32.665549+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T10:39:32.686334+0000 - __main__ - INFO - grandmother.html
+2021-12-22T10:39:32.690175+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T10:39:32.775795+0000 - __main__ - INFO - formal.html
+2021-12-22T10:39:32.776301+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T10:39:32.791100+0000 - __main__ - INFO - black_girls.html
+2021-12-22T10:39:32.791534+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T10:39:32.817113+0000 - __main__ - INFO - light.html
+2021-12-22T10:39:32.817541+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T10:39:32.842945+0000 - __main__ - INFO - rain.html
+2021-12-22T10:39:32.843388+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T10:39:32.857975+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T10:39:32.858427+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2021-12-22T17:56:10.770370+0000 - __main__ - INFO - midday.html
+2021-12-22T17:56:10.770841+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T17:56:10.815330+0000 - __main__ - INFO - lazy.html
+2021-12-22T17:56:10.815498+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T17:56:10.829522+0000 - __main__ - INFO - salt.html
+2021-12-22T17:56:10.829682+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T17:56:10.842951+0000 - __main__ - INFO - freedom.html
+2021-12-22T17:56:10.843133+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T17:56:10.879193+0000 - __main__ - INFO - ice.html
+2021-12-22T17:56:10.879384+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T17:56:10.893298+0000 - __main__ - INFO - sense.html
+2021-12-22T17:56:10.893483+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T17:56:10.907620+0000 - __main__ - INFO - travelling.html
+2021-12-22T17:56:10.907807+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T17:56:10.943066+0000 - __main__ - INFO - ignorance.html
+2021-12-22T17:56:10.943263+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T17:56:10.957552+0000 - __main__ - INFO - inward.html
+2021-12-22T17:56:10.957769+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T17:56:10.982062+0000 - __main__ - INFO - babes.html
+2021-12-22T17:56:10.982292+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T17:56:10.996362+0000 - __main__ - INFO - playground.html
+2021-12-22T17:56:10.996574+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T17:56:11.032289+0000 - __main__ - INFO - maria.html
+2021-12-22T17:56:11.032527+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T17:56:11.046759+0000 - __main__ - INFO - would.html
+2021-12-22T17:56:11.046956+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T17:56:11.071919+0000 - __main__ - INFO - friends.html
+2021-12-22T17:56:11.072108+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T17:56:11.086819+0000 - __main__ - INFO - arrow.html
+2021-12-22T17:56:11.087013+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T17:56:11.101021+0000 - __main__ - INFO - love.html
+2021-12-22T17:56:11.101217+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T17:56:11.127272+0000 - __main__ - INFO - glass.html
+2021-12-22T17:56:11.127481+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T17:56:11.152546+0000 - __main__ - INFO - mario.html
+2021-12-22T17:56:11.152808+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T17:56:11.167707+0000 - __main__ - INFO - cat.html
+2021-12-22T17:56:11.167974+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T17:56:11.193840+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T17:56:11.194154+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T17:56:11.241278+0000 - __main__ - INFO - cassandra.html
+2021-12-22T17:56:11.241449+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T17:56:11.254764+0000 - __main__ - INFO - benzos.html
+2021-12-22T17:56:11.254940+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T17:56:11.269477+0000 - __main__ - INFO - mourners.html
+2021-12-22T17:56:11.269899+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T17:56:11.299843+0000 - __main__ - INFO - grandmother.html
+2021-12-22T17:56:11.300278+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T17:56:11.369788+0000 - __main__ - INFO - formal.html
+2021-12-22T17:56:11.369962+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T17:56:11.385428+0000 - __main__ - INFO - black_girls.html
+2021-12-22T17:56:11.386245+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T17:56:11.449260+0000 - __main__ - INFO - light.html
+2021-12-22T17:56:11.449488+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T17:56:11.485082+0000 - __main__ - INFO - rain.html
+2021-12-22T17:56:11.485264+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T17:56:11.499149+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T17:56:11.499335+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2021-12-22T17:59:46.266004+0000 - __main__ - INFO - midday.html
+2021-12-22T17:59:46.266144+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T17:59:46.290555+0000 - __main__ - INFO - lazy.html
+2021-12-22T17:59:46.290751+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T17:59:46.304599+0000 - __main__ - INFO - salt.html
+2021-12-22T17:59:46.304788+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T17:59:46.317994+0000 - __main__ - INFO - freedom.html
+2021-12-22T17:59:46.318187+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T17:59:46.352837+0000 - __main__ - INFO - ice.html
+2021-12-22T17:59:46.353003+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T17:59:46.367642+0000 - __main__ - INFO - sense.html
+2021-12-22T17:59:46.368195+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T17:59:46.386846+0000 - __main__ - INFO - travelling.html
+2021-12-22T17:59:46.387034+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T17:59:46.411397+0000 - __main__ - INFO - ignorance.html
+2021-12-22T17:59:46.411660+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T17:59:46.425543+0000 - __main__ - INFO - inward.html
+2021-12-22T17:59:46.425726+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T17:59:46.439330+0000 - __main__ - INFO - babes.html
+2021-12-22T17:59:46.439528+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T17:59:46.453589+0000 - __main__ - INFO - playground.html
+2021-12-22T17:59:46.453808+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T17:59:46.488580+0000 - __main__ - INFO - maria.html
+2021-12-22T17:59:46.488767+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T17:59:46.503052+0000 - __main__ - INFO - would.html
+2021-12-22T17:59:46.503230+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T17:59:46.516614+0000 - __main__ - INFO - friends.html
+2021-12-22T17:59:46.516793+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T17:59:46.530675+0000 - __main__ - INFO - arrow.html
+2021-12-22T17:59:46.530862+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T17:59:46.544754+0000 - __main__ - INFO - love.html
+2021-12-22T17:59:46.544944+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T17:59:46.558331+0000 - __main__ - INFO - glass.html
+2021-12-22T17:59:46.558492+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T17:59:46.572080+0000 - __main__ - INFO - mario.html
+2021-12-22T17:59:46.572242+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T17:59:46.585476+0000 - __main__ - INFO - cat.html
+2021-12-22T17:59:46.585648+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T17:59:46.598965+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T17:59:46.599157+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T17:59:46.634492+0000 - __main__ - INFO - cassandra.html
+2021-12-22T17:59:46.634678+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T17:59:46.648396+0000 - __main__ - INFO - benzos.html
+2021-12-22T17:59:46.648587+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T17:59:46.662972+0000 - __main__ - INFO - mourners.html
+2021-12-22T17:59:46.663236+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T17:59:46.677036+0000 - __main__ - INFO - grandmother.html
+2021-12-22T17:59:46.677212+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T17:59:46.743797+0000 - __main__ - INFO - formal.html
+2021-12-22T17:59:46.743985+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T17:59:46.757561+0000 - __main__ - INFO - black_girls.html
+2021-12-22T17:59:46.757747+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T17:59:46.784146+0000 - __main__ - INFO - light.html
+2021-12-22T17:59:46.784336+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T17:59:46.808788+0000 - __main__ - INFO - rain.html
+2021-12-22T17:59:46.808986+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T17:59:46.823617+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T17:59:46.823785+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2021-12-22T19:03:17.795552+0000 - __main__ - INFO - midday.html
+2021-12-22T19:03:17.795693+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T19:03:17.820022+0000 - __main__ - INFO - lazy.html
+2021-12-22T19:03:17.820189+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T19:03:17.834125+0000 - __main__ - INFO - salt.html
+2021-12-22T19:03:17.834327+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T19:03:17.848836+0000 - __main__ - INFO - freedom.html
+2021-12-22T19:03:17.849392+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T19:03:17.883760+0000 - __main__ - INFO - ice.html
+2021-12-22T19:03:17.883938+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T19:03:17.897030+0000 - __main__ - INFO - sense.html
+2021-12-22T19:03:17.897186+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T19:03:17.912834+0000 - __main__ - INFO - travelling.html
+2021-12-22T19:03:17.913412+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T19:03:17.942251+0000 - __main__ - INFO - ignorance.html
+2021-12-22T19:03:17.942422+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T19:03:17.958133+0000 - __main__ - INFO - inward.html
+2021-12-22T19:03:17.958756+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T19:03:18.000776+0000 - __main__ - INFO - babes.html
+2021-12-22T19:03:18.001032+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T19:03:18.015701+0000 - __main__ - INFO - playground.html
+2021-12-22T19:03:18.015910+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T19:03:18.051348+0000 - __main__ - INFO - maria.html
+2021-12-22T19:03:18.051561+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T19:03:18.065763+0000 - __main__ - INFO - would.html
+2021-12-22T19:03:18.066000+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T19:03:18.091181+0000 - __main__ - INFO - friends.html
+2021-12-22T19:03:18.091401+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T19:03:18.116322+0000 - __main__ - INFO - arrow.html
+2021-12-22T19:03:18.116594+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T19:03:18.141901+0000 - __main__ - INFO - love.html
+2021-12-22T19:03:18.142156+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T19:03:18.167707+0000 - __main__ - INFO - glass.html
+2021-12-22T19:03:18.167951+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T19:03:18.193412+0000 - __main__ - INFO - mario.html
+2021-12-22T19:03:18.193659+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T19:03:18.209652+0000 - __main__ - INFO - cat.html
+2021-12-22T19:03:18.209916+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T19:03:18.225092+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T19:03:18.225336+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T19:03:18.273653+0000 - __main__ - INFO - cassandra.html
+2021-12-22T19:03:18.273985+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T19:03:18.301170+0000 - __main__ - INFO - benzos.html
+2021-12-22T19:03:18.301490+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T19:03:18.318514+0000 - __main__ - INFO - mourners.html
+2021-12-22T19:03:18.318821+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T19:03:18.347168+0000 - __main__ - INFO - grandmother.html
+2021-12-22T19:03:18.347734+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T19:03:18.440757+0000 - __main__ - INFO - formal.html
+2021-12-22T19:03:18.440940+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T19:03:18.454857+0000 - __main__ - INFO - black_girls.html
+2021-12-22T19:03:18.455066+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T19:03:18.479988+0000 - __main__ - INFO - light.html
+2021-12-22T19:03:18.480162+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T19:03:18.504326+0000 - __main__ - INFO - rain.html
+2021-12-22T19:03:18.504487+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T19:03:18.517700+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T19:03:18.517859+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2021-12-22T19:05:40.717396+0000 - __main__ - INFO - midday.html
+2021-12-22T19:05:40.717553+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T19:05:40.741638+0000 - __main__ - INFO - lazy.html
+2021-12-22T19:05:40.741836+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T19:05:40.755076+0000 - __main__ - INFO - salt.html
+2021-12-22T19:05:40.755249+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T19:05:40.769222+0000 - __main__ - INFO - freedom.html
+2021-12-22T19:05:40.769406+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T19:05:40.803841+0000 - __main__ - INFO - ice.html
+2021-12-22T19:05:40.804002+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T19:05:40.817145+0000 - __main__ - INFO - sense.html
+2021-12-22T19:05:40.817328+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T19:05:40.831083+0000 - __main__ - INFO - travelling.html
+2021-12-22T19:05:40.831244+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T19:05:40.865750+0000 - __main__ - INFO - ignorance.html
+2021-12-22T19:05:40.865912+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T19:05:40.879422+0000 - __main__ - INFO - inward.html
+2021-12-22T19:05:40.879616+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T19:05:40.893523+0000 - __main__ - INFO - babes.html
+2021-12-22T19:05:40.893706+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T19:05:40.907312+0000 - __main__ - INFO - playground.html
+2021-12-22T19:05:40.907496+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T19:05:40.942057+0000 - __main__ - INFO - maria.html
+2021-12-22T19:05:40.942253+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T19:05:40.955526+0000 - __main__ - INFO - would.html
+2021-12-22T19:05:40.955712+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T19:05:40.979434+0000 - __main__ - INFO - friends.html
+2021-12-22T19:05:40.979603+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T19:05:40.993700+0000 - __main__ - INFO - arrow.html
+2021-12-22T19:05:40.993909+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T19:05:41.018686+0000 - __main__ - INFO - love.html
+2021-12-22T19:05:41.018912+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T19:05:41.043987+0000 - __main__ - INFO - glass.html
+2021-12-22T19:05:41.044213+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T19:05:41.069274+0000 - __main__ - INFO - mario.html
+2021-12-22T19:05:41.069502+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T19:05:41.084150+0000 - __main__ - INFO - cat.html
+2021-12-22T19:05:41.084373+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T19:05:41.100087+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T19:05:41.100311+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T19:05:41.146264+0000 - __main__ - INFO - cassandra.html
+2021-12-22T19:05:41.146431+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T19:05:41.160031+0000 - __main__ - INFO - benzos.html
+2021-12-22T19:05:41.160207+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T19:05:41.173926+0000 - __main__ - INFO - mourners.html
+2021-12-22T19:05:41.174099+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T19:05:41.188579+0000 - __main__ - INFO - grandmother.html
+2021-12-22T19:05:41.188771+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T19:05:41.243940+0000 - __main__ - INFO - formal.html
+2021-12-22T19:05:41.244131+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T19:05:41.258966+0000 - __main__ - INFO - black_girls.html
+2021-12-22T19:05:41.259544+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T19:05:41.332420+0000 - __main__ - INFO - light.html
+2021-12-22T19:05:41.332615+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T19:05:41.368282+0000 - __main__ - INFO - rain.html
+2021-12-22T19:05:41.368497+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T19:05:41.382769+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T19:05:41.382974+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2021-12-22T19:07:22.536741+0000 - __main__ - INFO - midday.html
+2021-12-22T19:07:22.536885+0000 - __main__ - INFO - pandoc --highlight-style=zenburn midday.md -o midday.html
+2021-12-22T19:07:22.561130+0000 - __main__ - INFO - lazy.html
+2021-12-22T19:07:22.561316+0000 - __main__ - INFO - pandoc --highlight-style=zenburn lazy.md -o lazy.html
+2021-12-22T19:07:22.575361+0000 - __main__ - INFO - salt.html
+2021-12-22T19:07:22.575519+0000 - __main__ - INFO - pandoc --highlight-style=zenburn salt.md -o salt.html
+2021-12-22T19:07:22.590675+0000 - __main__ - INFO - freedom.html
+2021-12-22T19:07:22.591325+0000 - __main__ - INFO - pandoc --highlight-style=zenburn freedom.md -o freedom.html
+2021-12-22T19:07:22.654488+0000 - __main__ - INFO - ice.html
+2021-12-22T19:07:22.654648+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ice.md -o ice.html
+2021-12-22T19:07:22.667727+0000 - __main__ - INFO - sense.html
+2021-12-22T19:07:22.667880+0000 - __main__ - INFO - pandoc --highlight-style=zenburn sense.md -o sense.html
+2021-12-22T19:07:22.681193+0000 - __main__ - INFO - travelling.html
+2021-12-22T19:07:22.681365+0000 - __main__ - INFO - pandoc --highlight-style=zenburn travelling.md -o travelling.html
+2021-12-22T19:07:22.716050+0000 - __main__ - INFO - ignorance.html
+2021-12-22T19:07:22.716245+0000 - __main__ - INFO - pandoc --highlight-style=zenburn ignorance.md -o ignorance.html
+2021-12-22T19:07:22.729787+0000 - __main__ - INFO - inward.html
+2021-12-22T19:07:22.729994+0000 - __main__ - INFO - pandoc --highlight-style=zenburn inward.md -o inward.html
+2021-12-22T19:07:22.744439+0000 - __main__ - INFO - babes.html
+2021-12-22T19:07:22.744615+0000 - __main__ - INFO - pandoc --highlight-style=zenburn babes.md -o babes.html
+2021-12-22T19:07:22.758450+0000 - __main__ - INFO - playground.html
+2021-12-22T19:07:22.758632+0000 - __main__ - INFO - pandoc --highlight-style=zenburn playground.md -o playground.html
+2021-12-22T19:07:22.795366+0000 - __main__ - INFO - maria.html
+2021-12-22T19:07:22.795589+0000 - __main__ - INFO - pandoc --highlight-style=zenburn maria.md -o maria.html
+2021-12-22T19:07:22.810115+0000 - __main__ - INFO - would.html
+2021-12-22T19:07:22.810349+0000 - __main__ - INFO - pandoc --highlight-style=zenburn would.md -o would.html
+2021-12-22T19:07:22.835685+0000 - __main__ - INFO - friends.html
+2021-12-22T19:07:22.835900+0000 - __main__ - INFO - pandoc --highlight-style=zenburn friends.md -o friends.html
+2021-12-22T19:07:22.862733+0000 - __main__ - INFO - arrow.html
+2021-12-22T19:07:22.863347+0000 - __main__ - INFO - pandoc --highlight-style=zenburn arrow.md -o arrow.html
+2021-12-22T19:07:22.906293+0000 - __main__ - INFO - love.html
+2021-12-22T19:07:22.906620+0000 - __main__ - INFO - pandoc --highlight-style=zenburn love.md -o love.html
+2021-12-22T19:07:22.933395+0000 - __main__ - INFO - glass.html
+2021-12-22T19:07:22.933618+0000 - __main__ - INFO - pandoc --highlight-style=zenburn glass.md -o glass.html
+2021-12-22T19:07:22.948028+0000 - __main__ - INFO - mario.html
+2021-12-22T19:07:22.948249+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mario.md -o mario.html
+2021-12-22T19:07:22.962473+0000 - __main__ - INFO - cat.html
+2021-12-22T19:07:22.962691+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cat.md -o cat.html
+2021-12-22T19:07:22.987730+0000 - __main__ - INFO - eumeswil.html
+2021-12-22T19:07:22.987973+0000 - __main__ - INFO - pandoc --highlight-style=zenburn eumeswil.md -o eumeswil.html
+2021-12-22T19:07:23.044496+0000 - __main__ - INFO - cassandra.html
+2021-12-22T19:07:23.044668+0000 - __main__ - INFO - pandoc --highlight-style=zenburn cassandra.md -o cassandra.html
+2021-12-22T19:07:23.058775+0000 - __main__ - INFO - benzos.html
+2021-12-22T19:07:23.058981+0000 - __main__ - INFO - pandoc --highlight-style=zenburn benzos.md -o benzos.html
+2021-12-22T19:07:23.073865+0000 - __main__ - INFO - mourners.html
+2021-12-22T19:07:23.074169+0000 - __main__ - INFO - pandoc --highlight-style=zenburn mourners.md -o mourners.html
+2021-12-22T19:07:23.088353+0000 - __main__ - INFO - grandmother.html
+2021-12-22T19:07:23.088550+0000 - __main__ - INFO - pandoc --highlight-style=zenburn grandmother.md -o grandmother.html
+2021-12-22T19:07:23.143932+0000 - __main__ - INFO - formal.html
+2021-12-22T19:07:23.144102+0000 - __main__ - INFO - pandoc --highlight-style=zenburn formal.md -o formal.html
+2021-12-22T19:07:23.158234+0000 - __main__ - INFO - black_girls.html
+2021-12-22T19:07:23.158410+0000 - __main__ - INFO - pandoc --highlight-style=zenburn black_girls.md -o black_girls.html
+2021-12-22T19:07:23.186987+0000 - __main__ - INFO - light.html
+2021-12-22T19:07:23.187553+0000 - __main__ - INFO - pandoc --highlight-style=zenburn light.md -o light.html
+2021-12-22T19:07:23.250729+0000 - __main__ - INFO - rain.html
+2021-12-22T19:07:23.250920+0000 - __main__ - INFO - pandoc --highlight-style=zenburn rain.md -o rain.html
+2021-12-22T19:07:23.264428+0000 - __main__ - INFO - nosferatu.html
+2021-12-22T19:07:23.264604+0000 - __main__ - INFO - pandoc --highlight-style=zenburn nosferatu.md -o nosferatu.html
+2022-01-21T18:08:06.573714+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (18683), thread 'MainThread' (139914581428032):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/teste/template_python_files/header/header.py", line 34, in <module>
+    header(title, author)
+    │      │      └ ''
+    │      └ ''
+    └ <function header at 0x7f40659ca200>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ('', '')
+           └ <function header at 0x7f4066b4bd90>
+
+  File "/usr/share/nginx/html/teste/template_python_files/header/header.py", line 28, in header
+    template = env.get_template("header.php")
+               │   └ <function Environment.get_template at 0x7f4065c39c60>
+               └ <jinja2.environment.Environment object at 0x7f40657eb910>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'header.php'
+           │    └ <function Environment._load_template at 0x7f4065c39bd0>
+           └ <jinja2.environment.Environment object at 0x7f40657eb910>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f4065c39ea0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f40657eb910>
+               │    │      │    │     └ 'header.php'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f40657eb910>
+               │    │      └ <function BaseLoader.load at 0x7f4065c3b760>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f40657e8190>
+               └ <jinja2.environment.Environment object at 0x7f40657eb910>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'header.php'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7f40657eb910>
+                                 │    └ <function FileSystemLoader.get_source at 0x7f4065c3b880>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7f40657e8190>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'header.php'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: header.php
+2022-01-21T18:36:22.092916+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (19603), thread 'MainThread' (140623026583360):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/hp_menu/rand.py", line 44, in <module>
+    rand()
+    └ <function rand at 0x7fe5583b2290>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7fe5592e1c60>
+
+  File "/usr/share/nginx/html/poems_folding_menu/hp_menu/rand.py", line 38, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7fe558629d80>
+               └ <jinja2.environment.Environment object at 0x7fe5583be830>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7fe558629cf0>
+           └ <jinja2.environment.Environment object at 0x7fe5583be830>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7fe558629fc0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7fe5583be830>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7fe5583be830>
+               │    │      └ <function BaseLoader.load at 0x7fe55862b880>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7fe5583bfa60>
+               └ <jinja2.environment.Environment object at 0x7fe5583be830>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7fe5583be830>
+                                 │    └ <function FileSystemLoader.get_source at 0x7fe55862b9a0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7fe5583bfa60>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl

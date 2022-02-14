@@ -1,0 +1,486 @@
+2021-12-22T14:10:16.254356+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152362), thread 'MainThread' (140036467300160):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 37, in <module>
+    if __name__ == "__main__":
+       └ '__main__'
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 31, in rand
+    env = Environment(loader=FileSystemLoader("templates"))
+          │                  └ <class 'jinja2.loaders.FileSystemLoader'>
+          └ <class 'jinja2.environment.Environment'>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7f5cc6f77eb0>
+           └ <jinja2.environment.Environment object at 0x7f5cc69adb70>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f5cc6f901f0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f5cc69adb70>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f5cc69adb70>
+               │    │      └ <function BaseLoader.load at 0x7f5cc6f91ab0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f5cc69adc60>
+               └ <jinja2.environment.Environment object at 0x7f5cc69adb70>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7f5cc69adb70>
+                                 │    └ <function FileSystemLoader.get_source at 0x7f5cc6f91bd0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7f5cc69adc60>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:11:46.390796+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152428), thread 'MainThread' (139774609295168):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 38, in <module>
+    rand()
+    └ <function rand at 0x7f1fcea4e830>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 32, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7f1fcef2dea0>
+               └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7f1fcef2de10>
+           └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f1fcef2e0e0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+               │    │      └ <function BaseLoader.load at 0x7f1fcef2f9a0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f1fcea51c60>
+               └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7f1fcea51b70>
+                                 │    └ <function FileSystemLoader.get_source at 0x7f1fcef2fac0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7f1fcea51c60>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:17:53.589028+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152562), thread 'MainThread' (140601641121600):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 38, in <module>
+    rand()
+    └ <function rand at 0x7fe05d93e830>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 32, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7fe05de2dea0>
+               └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7fe05de2de10>
+           └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7fe05de2e0e0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+               │    │      └ <function BaseLoader.load at 0x7fe05de2f9a0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7fe05d955c00>
+               └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7fe05d955b10>
+                                 │    └ <function FileSystemLoader.get_source at 0x7fe05de2fac0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7fe05d955c00>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:18:48.169730+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152585), thread 'MainThread' (140428934264640):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 38, in <module>
+    rand()
+    └ <function rand at 0x7fb827726830>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 32, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7fb827c15ea0>
+               └ <jinja2.environment.Environment object at 0x7fb82773db10>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7fb827c15e10>
+           └ <jinja2.environment.Environment object at 0x7fb82773db10>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7fb827c160e0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7fb82773db10>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7fb82773db10>
+               │    │      └ <function BaseLoader.load at 0x7fb827c179a0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7fb82773dc00>
+               └ <jinja2.environment.Environment object at 0x7fb82773db10>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7fb82773db10>
+                                 │    └ <function FileSystemLoader.get_source at 0x7fb827c17ac0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7fb82773dc00>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:19:21.501501+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152613), thread 'MainThread' (140438606636864):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 40, in <module>
+    rand()
+    └ <function rand at 0x7fba67f12050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7fba690abd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 34, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7fba68181ab0>
+               └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7fba68181a20>
+           └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7fba68181cf0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+               │    │      └ <function BaseLoader.load at 0x7fba681835b0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7fba67f2f970>
+               └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7fba67f2d150>
+                                 │    └ <function FileSystemLoader.get_source at 0x7fba681836d0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7fba67f2f970>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:21:00.502269+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152642), thread 'MainThread' (140519270852416):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 40, in <module>
+    rand()
+    └ <function rand at 0x7fcd2fe76050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7fcd3100fd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 34, in rand
+    template = env.get_template("/usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7fcd300e5ab0>
+               └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ '/usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7fcd300e5a20>
+           └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7fcd300e5cf0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+               │    │      │    │     └ '/usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+               │    │      └ <function BaseLoader.load at 0x7fcd300e75b0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7fcd2fe93940>
+               └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ '/usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7fcd2fe91120>
+                                 │    └ <function FileSystemLoader.get_source at 0x7fcd300e76d0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7fcd2fe93940>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ '/usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: /usr/share/nginx/html/poems_folding_menu/templates/hp_menu.tpl
+2021-12-22T14:21:41.814026+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152665), thread 'MainThread' (140276354479936):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 40, in <module>
+    rand()
+    └ <function rand at 0x7f94a0f5e050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7f94a20f3d90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 34, in rand
+    template = env.get_template("/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7f94a11d1ab0>
+               └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ '/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7f94a11d1a20>
+           └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f94a11d1cf0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+               │    │      │    │     └ '/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+               │    │      └ <function BaseLoader.load at 0x7f94a11d35b0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f94a0f7b940>
+               └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ '/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7f94a0f79120>
+                                 │    └ <function FileSystemLoader.get_source at 0x7f94a11d36d0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7f94a0f7b940>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ '/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: /usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl
+2021-12-22T14:26:07.035652+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152791), thread 'MainThread' (139745178769216):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 40, in <module>
+    rand()
+    └ <function rand at 0x7f18f46c2050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7f18f5853d90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 34, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7f18f492dab0>
+               └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7f18f492da20>
+           └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f18f492dcf0>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+               │    │      └ <function BaseLoader.load at 0x7f18f492f5b0>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f18f46df970>
+               └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 │    │          │            └ 'hp_menu.tpl'
+                                 │    │          └ <jinja2.environment.Environment object at 0x7f18f46dd150>
+                                 │    └ <function FileSystemLoader.get_source at 0x7f18f492f6d0>
+                                 └ <jinja2.loaders.FileSystemLoader object at 0x7f18f46df970>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 214, in get_source
+    raise TemplateNotFound(template)
+          │                └ 'hp_menu.tpl'
+          └ <class 'jinja2.exceptions.TemplateNotFound'>
+
+jinja2.exceptions.TemplateNotFound: hp_menu.tpl
+2021-12-22T14:30:38.389414+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (152965), thread 'MainThread' (139632089818944):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 40, in <module>
+    rand()
+    └ <function rand at 0x7efe9fcb2050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7efea0e4bd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 36, in rand
+    f.write(template.render(rand0=poem_lst[0], ran1=poem_lst[1], ran2=poem_lst[2], ran3=poem_lst[3], ran4=poem_lst[4]))
+    │ │     │        │            │                 │                 │                 │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │            │                 │                 │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │            │                 │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │            │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │            └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        └ <function Template.render at 0x7efe9ff21fc0>
+    │ │     └ <Template 'hp_menu.tpl'>
+    │ └ <method 'write' of '_io.TextIOWrapper' objects>
+    └ <_io.TextIOWrapper name='/usr/share/nginx/html/poems_folding_menu/index.php' mode='w' encoding='UTF-8'>
+
+TypeError: '_io.TextIOWrapper' object is not subscriptable
+2021-12-22T14:43:12.704760+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (153393), thread 'MainThread' (140552552740672):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 42, in <module>
+    rand()
+    └ <function rand at 0x7fd4efa8e050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7fd4f0c23d90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 38, in rand
+    f.write(template.render(ran0=ran0, ran1=poem_lst[1], ran2=poem_lst[2], ran3=poem_lst[3], ran4=poem_lst[4]))
+    │ │     │        │           │          │                 │                 │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │           │          │                 │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │           │          │                 └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │           │          └ <_io.TextIOWrapper name='poem_list.txt' mode='r' encoding='UTF-8'>
+    │ │     │        │           └ 'w'
+    │ │     │        └ <function Template.render at 0x7fd4efd01fc0>
+    │ │     └ <Template 'hp_menu.tpl'>
+    │ └ <method 'write' of '_io.TextIOWrapper' objects>
+    └ <_io.TextIOWrapper name='/usr/share/nginx/html/poems_folding_menu/index.php' mode='w' encoding='UTF-8'>
+
+TypeError: '_io.TextIOWrapper' object is not subscriptable
+2021-12-22T14:45:09.599405+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (153437), thread 'MainThread' (140175313086272):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 46, in <module>
+    rand()
+    └ <function rand at 0x7f7d1a6c6050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7f7d1b85fd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 37, in rand
+    ran4 = str(line[4])
+               └ 'cat\n'
+
+IndexError: string index out of range
+2021-12-22T14:50:45.660699+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (153548), thread 'MainThread' (139640037246784):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 46, in <module>
+    rand()
+    └ <function rand at 0x7f0079802050>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7f007a98fd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 37, in rand
+    ran4 = str(line[4])
+               └ 'cat\n'
+
+IndexError: string index out of range
+2021-12-22T15:16:02.032317+0000 - __main__ - ERROR - An error has been caught in function '<module>', process 'MainProcess' (154498), thread 'MainThread' (140115109332800):
+Traceback (most recent call last):
+
+> File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 45, in <module>
+    rand()
+    └ <function rand at 0x7f6f1600e0e0>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/snoop/tracer.py", line 170, in simple_wrapper
+    return function(*args, **kwargs)
+           │         │       └ {}
+           │         └ ()
+           └ <function rand at 0x7f6f1719bd90>
+
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/hp_menu/rand.py", line 39, in rand
+    template = env.get_template("hp_menu.tpl")
+               │   └ <function Environment.get_template at 0x7f6f16279b40>
+               └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+           │    │              │     └ None
+           │    │              └ 'hp_menu.tpl'
+           │    └ <function Environment._load_template at 0x7f6f16279ab0>
+           └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               │    │      │    │     │     │    │            └ None
+               │    │      │    │     │     │    └ <function Environment.make_globals at 0x7f6f16279d80>
+               │    │      │    │     │     └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+               │    │      │    │     └ 'hp_menu.tpl'
+               │    │      │    └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+               │    │      └ <function BaseLoader.load at 0x7f6f1627b640>
+               │    └ <jinja2.loaders.FileSystemLoader object at 0x7f6f15e2f820>
+               └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+    code = environment.compile(source, name, filename)
+           │           │       │       │     └ '/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl'
+           │           │       │       └ 'hp_menu.tpl'
+           │           │       └ '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <title>HP</title>\n    <meta charset="utf-8">\n    <meta name="viewport" cont...
+           │           └ <function Environment.compile at 0x7f6f16279750>
+           └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+    self.handle_exception(source=source_hint)
+    │    │                       └ '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <title>HP</title>\n    <meta charset="utf-8">\n    <meta name="viewport" cont...
+    │    └ <function Environment.handle_exception at 0x7f6f16279990>
+    └ <jinja2.environment.Environment object at 0x7f6f15e2e320>
+  File "/home/mic/.local/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+          │                              └ '<!DOCTYPE html>\n<html lang="en">\n<head>\n    <title>HP</title>\n    <meta charset="utf-8">\n    <meta name="viewport" cont...
+          └ <function rewrite_traceback_stack at 0x7f6f1600ea70>
+  File "/usr/share/nginx/html/poems_folding_menu/support_files/templates/hp_menu.tpl", line 35, in template
+    <a href="#" class="item"><span>{{ ran3 ]]</span></a>
+
+jinja2.exceptions.TemplateSyntaxError: unexpected ']'
